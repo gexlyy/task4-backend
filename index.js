@@ -12,6 +12,6 @@ app.use(bodyParser.json());
 app.use('/auth', auth);
 app.use('/users', users);
 
-app.listen(3001, () => {
-    console.log('Backend running at http://localhost:3001');
-});
+// app.listen(3001, () => {
+//     console.log('Backend running at http://localhost:3001');
+// });
